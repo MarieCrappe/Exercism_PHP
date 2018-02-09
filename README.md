@@ -12,4 +12,4 @@ My PHP exercises using Exercism.io. For more information, visit the website: htt
 ## Lessons learned
 
 ### Working with strings
-* The difference between 'strtoupper' and 'mb_strtoupper' illustrated here: http://blog.jsfmp.com/post/74854979583/capitalize-accented-letters-strtoupper-mb-strtoupper-css
+* The difference between `strtoupper` and `mb_strtoupper` illustrated here: http://blog.jsfmp.com/post/74854979583/capitalize-accented-letters-strtoupper-mb-strtoupper-css

@@ -7,7 +7,7 @@ class Bob
 		$trimTalk = trim($talk);
 		if (strlen($trimTalk) == 0) {
 			return 'Fine. Be that way!';
-		} elseif (preg_match("/[A-Z]/i", $trimTalk) AND strlen(preg_replace("/[^a-z]+/", "", $trimTalk)) == 0) {
+		} elseif (preg_match("/[A-Z]/i", $trimTalk) AND mb_strtoupper($trimTalk) == $trimTalk) {
 			return 'Whoa, chill out!';
 		} elseif ($trimTalk[strlen($trimTalk) - 1] == '?') {
 			return 'Sure.';
